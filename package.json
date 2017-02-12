@@ -1,15 +1,17 @@
 {
   "name": "todo-react",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.9.0"
   },
   "dependencies": {
+    "json-server": "^0.9.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "scripts": {
+    "json-server": "json-server -p 8080 --watch db.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
